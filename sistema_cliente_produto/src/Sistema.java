@@ -16,7 +16,7 @@ public class Sistema {
         cliente.compras.add(compra2); //lista exposta
 
         System.out.println(cliente.nome);
-        System.out.println(cliente.obterValorTotal());
+        System.out.println("O valor total é: R$" + cliente.obterValorTotal());
 
     }
 }
